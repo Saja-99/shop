@@ -1,0 +1,65 @@
+/* ***** Medium Screen ***** */
+@media only screen and (min-width: 768px) {
+    /* **** Wo Framework **** */
+    .wo_item-md-6 {
+        width: calc(100%/2);
+    }
+    .wo_item-md-3 {
+        width: calc(100%/4);
+    }
+    /* **** Main Header **** */
+    .main-header_navbar-content {
+        display: flex;
+    }
+    .mobileList--active {
+        top: 150px;
+    }
+    /* **** Hero **** */
+    .hero_text {
+        max-width: 83%; 
+        transform: translate(0%,17%);
+    }
+    .hero_title {
+        font-size: 4rem;
+    }
+    .hero_desc {
+        margin: 25px 0;
+        font-size: 1.2rem;
+    }
+    .hero_btn {
+        padding: 20px 40px;
+        font-size: 1.2rem;
+     }
+    /* **** Categories **** */
+    .categories_item {
+        width: calc(100% / 3);
+    }
+    .categories_card {
+        min-height: 250px;
+    }
+    /* **** Get Discount **** */
+    .get-discount_item {
+        width: calc((100% / 2) - 30px);
+    }
+    .get-discount_item:first-of-type ,
+    .get-discount_item:nth-of-type(3) {
+        margin-right: 30px;
+    }
+    /* **** Cash Back **** */
+    .cash-back_content {
+        max-width: 70%;
+        margin: 0 0 0% auto;
+        padding: 75px 64px;
+    }
+    .cash-back_title {
+        font-size: 3.3rem;
+    }
+    .cash-back_desc {
+        font-size: 20px;
+    }
+    .cash-back_btn {
+        padding: 20px 40px;
+        font-size: 1.2rem;
+    }
+    
+}

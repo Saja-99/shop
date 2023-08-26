@@ -1,0 +1,117 @@
+/* ***** Large Screen ***** */
+@media only screen and (min-width: 992px) {
+    /* **** Wo Framework **** */
+    @import url(./framework/large.css);
+    .wo_item-lg-6 {
+        width: calc(100%/2);
+    }
+    .wo_item-lg-4 {
+        width: calc(100%/3);
+    }
+    .wo_item-lg-3 {
+        width: calc(100%/4);
+    }
+    .order-lg-2 {
+        order: 2;
+    }
+    /* **** Header **** */
+    .main-header_search {
+        display: flex;
+        align-items: center;
+    }
+    .main-header_top-nav-center {
+        display: block;
+    }
+    .main-header_bar {
+        display: none;
+    }
+    
+    .main-header_list {
+        position: static;
+        min-width: auto;
+        display: flex;
+        align-items: center;
+        z-index: inherit;
+        opacity: 1;
+        visibility: visible;
+    }
+    .main-header_item , 
+    .main-header_link {
+        width: auto;
+        padding: 5px;
+        font-weight: 600;
+    }
+    .main-header_search {
+        display: inline-block;
+    }
+    .main-header_mobile-icons {
+        display: none;
+    }
+    .main-header_mobile-icons ,
+    .main-header_icons  {
+        padding: 0 5px;
+        color: var(--white);
+    }
+    /* **** Hero **** */
+    .hero {
+        height: 100vh;
+    } 
+    .hero_content {
+        align-items: center;
+    }
+    .hero_text {
+        max-width: 50%; 
+        transform: translate(0,0);
+    }
+    .hero_title {
+        font-size: 4rem;
+    }
+    .hero_stage {
+        display: block;
+    }
+    .hero_satge-area-01 {
+        top: 10%;
+        right: 10%;
+        /* top: 3%;
+        right: 5%; */
+    }
+    .hero_satge-area-02 {
+        top: 24%;
+        right: 32%;
+    }
+    .hero_satge-area-03 {
+        bottom: 27%;
+        right: 17%;
+    }
+    /* **** Categories **** */
+    .categories_item {
+        width: calc(100% / 6);
+    }
+    .categories_card {
+        min-height: 250px;
+    }
+    /* **** Brand **** */
+    .brand_item {
+        width: calc(100% /4 - 20px);
+        padding: 20px;
+    }
+    .brand_img {
+        max-width: 100px;
+        max-height: 100px;
+    }
+    /* **** Get Discount **** */
+    .get-discount_item {
+        width: calc((100% / 4) - 20px);
+    }
+    .get-discount_item:not(:last-of-type){
+        margin-right: 20px;
+    }
+    /* **** Cash Back **** */
+    .cash-back {
+        height: 100vh;
+    }
+    .cash-back_content {
+        max-width: 40%;
+        transform: translate(0,15%);
+    } 
+}
